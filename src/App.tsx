@@ -11,9 +11,7 @@ export function App() {
       {/* Header */}
       <header className="mb-4">
         <h1 className="text-3xl font-bold tracking-tight">Foundry</h1>
-        <p className="mt-1 text-muted-foreground">
-          Snippets to decorate your messages
-        </p>
+        <p className="mt-1 text-muted-foreground">Snippets to decorate your messages</p>
       </header>
 
       {/* Main content */}

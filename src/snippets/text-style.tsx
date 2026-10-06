@@ -1,9 +1,6 @@
 import { CodeBlock } from "@/components/ui/code-block";
 import { Input } from "@/components/ui/input";
-import {
-  NativeSelect,
-  NativeSelectOption,
-} from "@/components/ui/native-select";
+import { NativeSelect, NativeSelectOption } from "@/components/ui/native-select";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
 
@@ -47,9 +44,7 @@ export function SnippetTextStyle() {
       return `color: ${color}`;
     }
     const gradient =
-      colorMode === "rainbow"
-        ? RAINBOW_GRADIENT
-        : `${gradientStart}, ${gradientEnd}`;
+      colorMode === "rainbow" ? RAINBOW_GRADIENT : `${gradientStart}, ${gradientEnd}`;
     return `background: linear-gradient(90deg, ${gradient}); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text`;
   };
 
