@@ -1,0 +1,7 @@
+services:
+  foundry-vtt-tools:
+    build:
+      context: .
+    ports:
+      - "${PORT:-8081}:80"
+    restart: unless-stopped
